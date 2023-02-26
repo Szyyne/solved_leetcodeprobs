@@ -7,4 +7,5 @@ class Solution:
                 if i==len(s) or s[i] != strs[0][i]:
                     return res
             res += strs[0][i]
+            
         return res       
